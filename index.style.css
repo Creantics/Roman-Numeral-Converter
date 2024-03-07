@@ -25,3 +25,53 @@ flex-wrap: wrap;
     max-width: 80%;
     text-align: center;
 }
+
+#inputContainer {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    border: solid black 1px;
+}
+
+#inputSquare {
+    background-color: #3b3b4f;
+    border: solid #f5f6f7 2px;
+    width: 100px;
+    height: 100px;
+    z-index: -1;
+}
+
+#userInstructions {
+    color: white;
+}
+
+#resultContainer {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    border: solid black 1px;
+}
+
+#resultSquareValid {
+    background-color: #3b3b4f;
+    border: solid #f5f6f7 2px;
+    width: 100px;
+    height: 100px;
+    z-index: -1;
+}
+
+#resultSquareMore {
+    background-color: #ffadad;
+    border: solid #850000 2px;
+    width: 100px;
+    height: 100px;
+    z-index: -1;
+}
+
+#resultSquareLess {
+    background-color: #ffadad;
+    border: solid #850000 2px;
+    width: 100px;
+    height: 100px;
+    z-index: -1;
+}
