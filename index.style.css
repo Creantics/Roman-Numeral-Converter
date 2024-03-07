@@ -1,0 +1,26 @@
+body {
+    background-color: #1b1b32;
+}
+
+#logoContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+}
+
+#fccLogo {
+    max-width: 300px;
+}
+
+#titleContainer {
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+}
+
+#title {
+    color: white;
+    font-size: 40px;
+    max-width: 400px;
+    text-align: center;
+}
