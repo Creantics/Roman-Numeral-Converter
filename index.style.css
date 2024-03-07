@@ -9,7 +9,8 @@ body {
 }
 
 #fccLogo {
-    max-width: 50vw;
+    width: 300px;
+    max-width: 50%;
 }
 
 #titleContainer {
@@ -20,7 +21,7 @@ flex-wrap: wrap;
 
 #title {
     color: white;
-    font-size: 8vw;
-    max-width: 80vw;
+    font-size: 50px;
+    max-width: 80%;
     text-align: center;
 }
