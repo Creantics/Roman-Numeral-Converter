@@ -18,11 +18,11 @@
       <div id="inputSquare">
         <div id="userInstructions"><strong>Enter a Number:</strong></div>
         <input id="userInput" type="number">
-        <button id="convertButton" onclick="convert()">Convert</button>
+        <button id="convertButton" onclick="convertMore(), convertLess()">Convert</button>
       </div>
     </div>
     <div id="resultContainer">
-      <div id="resultSquareValid" class="">
+      <div id="resultSquareValid" class="hidden">
         <p id="paragraphValid"></p>
       </div>
       <div id="resultSquareLess" class="hidden">
@@ -31,7 +31,7 @@
       <div id="resultSquareMore" class="hidden">
         <p id="paragraphMore">Please enter a number less than or equal to 3999.</p>
       </div>
-      <div id="resultSqaureNotValid" class="hidden">
+      <div id="resultSquareNotValid" class="hidden">
         <p id="paragraphNotValid">Please enter a valid number.</p>
       </div>
     </div>
