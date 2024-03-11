@@ -9,8 +9,6 @@ const valid = document.getElementById('resultSquareValid');
 let convertButton = document.getElementById('convertButton');
 let numberToConvert = "";
 
-console.log(userInput.innerHTML);
-
 function convertLess() {
     numberToConvert = userInput.value;
     if (numberToConvert <= 0 && numberToConvert) {
@@ -48,4 +46,11 @@ function convertValid() {
         validEmpty.classList.add('hidden');
         paragraphValid.innerHTML = numberToConvert;
     }
+}
+
+function convert() {
+    convertLess();
+    convertMore();
+    convertEmpty();
+    convertValid();
 }
