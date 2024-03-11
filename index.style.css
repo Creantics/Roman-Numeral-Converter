@@ -14,7 +14,6 @@ body {
 }
 
 #titleContainer {
-border: solid black 1px;
 display: flex;
 justify-content: center;
 flex-wrap: wrap;
@@ -31,7 +30,6 @@ flex-wrap: wrap;
     display: flex;
     justify-content: center;
     align-content: center;
-    border: solid black 1px;
 }
 
 #inputSquare {
@@ -76,7 +74,6 @@ flex-wrap: wrap;
     display: flex;
     justify-content: center;
     align-content: center;
-    border: solid black 1px;
 }
 
 #resultSquareValid {
