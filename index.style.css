@@ -56,6 +56,9 @@ flex-wrap: wrap;
     width: 80%;
     height: 20%;
     font-size: 30px;
+    color: white;
+    background-color: #1b1b32;
+    border: solid 1px white;
 }
 
 #convertButton {
@@ -78,25 +81,71 @@ flex-wrap: wrap;
 }
 
 #resultSquareValid {
+    font-family: sans-serif;
     background-color: #3b3b4f;
     border: solid #f5f6f7 2px;
-    width: 100px;
-    height: 100px;
-    z-index: -1;
+    width: 500px;
+    height: 75px;
+    justify-content: center;
+    align-content: center;
+    margin-top: 25px;
+}
+
+#paragraphValid {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    margin: 15px auto;
 }
 
 #resultSquareMore {
     background-color: #ffadad;
     border: solid #850000 2px;
-    width: 100px;
-    height: 100px;
-    z-index: -1;
+    width: 500px;
+    height: 125px;
+    margin-top: 24px;
 }
 
 #resultSquareLess {
     background-color: #ffadad;
     border: solid #850000 2px;
-    width: 100px;
-    height: 100px;
-    z-index: -1;
+    width: 500px;
+    height: 125px;
+    margin-top: 24px;
+}
+
+#paragraphNotValid {
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 40px;
+    color: #850000;
+    margin: 15px auto;
+}
+
+#resultSqaureNotValid {
+    background-color: #ffadad;
+    border: solid #850000 2px;
+    width: 500px;
+    height: 125px;
+    margin-top: 24px;
+}
+
+#paragraphLess {
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 40px;
+    color: #850000;
+    margin: 15px auto;
+}
+
+#paragraphMore {
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 40px;
+    color: #850000;
+    margin: 15px auto;
+}
+
+.hidden {
+    display: none;
 }
