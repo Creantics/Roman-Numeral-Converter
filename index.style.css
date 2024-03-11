@@ -29,7 +29,6 @@ flex-wrap: wrap;
 
 #inputContainer {
     display: flex;
-    flex-direction: ;
     justify-content: center;
     align-content: center;
     border: solid black 1px;
