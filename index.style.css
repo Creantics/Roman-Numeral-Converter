@@ -45,6 +45,9 @@ flex-wrap: wrap;
 #userInstructions {
     color: white;
     text-align: center;
+    font-size: 25px;
+    margin-top: 35px;
+    margin-bottom: 20px;
 }
 
 #userInput {
